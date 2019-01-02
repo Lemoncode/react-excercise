@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { MemberEntity } from '../../model/member';
-import { memberAPI } from '../../api/memberAPI';
+//import { memberAPI } from '../../api/memberAPI';
+import {memberAPI} from '../../api/mockedmemberAPI';
 import { MemberRow } from './memberRow';
 import { MemberHead } from './memberHead';
 import {} from 'core-js';
