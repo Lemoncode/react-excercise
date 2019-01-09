@@ -33,6 +33,14 @@ orgnization he wants, hit ok and display the list of members for that organizati
   - Tie up on change to the organization state change.
   - Retrieve the name of the organization from the state before running the query.
 
+# Optional items
+
+If you want to play more with React here you have some proposals to enhance this excercise:
+
+- Add material ui support, display data in cards or a table.
+- Add paging (you will need to update UI, plus client rest api).
+- Click on a given member and navigate to a details page where you can read the details of that member.
+
 # About Lemoncode
 
 We are a team of long-term experienced freelance developers, established as a group in 2010.
