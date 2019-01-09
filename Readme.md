@@ -39,7 +39,7 @@ If you want to play more with React here you have some proposals to enhance this
 
 - Add material ui support, display data in cards or a table.
 - Add paging (you will need to update UI, plus client rest api).
-- Click on a given member and navigate to a details page where you can read the details of that member.
+- Click on a given member and navigate to a details page where you can read the details of that member (you will need to find out the github api endpoint to retrieve that info).
 
 # About Lemoncode
 
