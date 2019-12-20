@@ -3,7 +3,6 @@ import { MemberEntity } from "../../model/member";
 import { memberAPI } from "../../api/memberAPI";
 import { MemberRow } from "./memberRow";
 import { MemberHead } from "./memberHead";
-import {} from "core-js";
 
 interface Props {}
 

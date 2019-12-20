@@ -5,13 +5,13 @@
     "moduleResolution": "node",
     "declaration": false,
     "noImplicitAny": false,
-    "jsx": "react",
     "sourceMap": true,
+    "jsx": "react",
     "noLib": false,
-    "suppressImplicitAnyIndexErrors": true
+    "allowJs": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
   },
-  "compileOnSave": false,
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["./src/**/*"]
 }
