@@ -3,12 +3,12 @@
 The goal of this sample to is get started with react.
 
 We will get as starting point an application that displays a list of github members that
-belongs to an organization (in the starting excercise is hardcoded to _lemoncode_), and 
+belongs to an organization (in the starting excercise is hardcoded to _lemoncode_), and
 we will add an input element to let the user choose another organization to query.
 
 # Excercise
 
-- Start with the stating implementation that is located under the folder *00_start*.
+- Start with the stating implementation that is located under the folder _00_start_.
 
 - Let's install the needed dependencies.
 
@@ -23,8 +23,8 @@ npm start
 ```
 
 - If we check the current implementation we are getting a list of members belonging to lemoncode
-organization, that's nice but we would like to let the user to be able to type the name of the 
-orgnization he wants, hit ok and display the list of members for that organization.
+  organization, that's nice but we would like to let the user to be able to type the name of the
+  orgnization he wants, hit ok and display the list of members for that organization.
 
 - Hints:
 
@@ -37,6 +37,7 @@ orgnization he wants, hit ok and display the list of members for that organizati
 
 If you want to play more with React here you have some proposals to enhance this excercise:
 
+- Create a custom hooks that encapsulate member and member loading management.
 - Add material ui support, display data in cards or a table.
 - Add paging (you will need to update UI, plus client rest api).
 - Click on a given member and navigate to a details page where you can read the details of that member (you will need to find out the github api endpoint to retrieve that info).
